@@ -18,7 +18,7 @@ if (!empty($_SESSION['customer'])) {
        
       <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="product.php">商品一覧</a>
-        </li><a class="dropdown-item <?= $logdin ? '' : 'hidden' ?>
+        </li><a class="dropdown-item" <?= $logdin ? '' : 'hidden' ?>>
           <a class="nav-link" href="favorite-show.php">お気に入り</a>
         </li>
         <li class="nav-item dropdown">
